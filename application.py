@@ -8,8 +8,8 @@ application.debug = True
 def hello():
  return '<p>Hello world</p>'
 
-@application.route('/welcome', methods=['GET'])
+@application.route('/aboutUs', methods=['GET'])
 def welcome():
- return '<p>Welcome!!!</p>'
+ return '<p>Welcome to our application!</p>'
 if __name__ == "__main__":
  application.run()
